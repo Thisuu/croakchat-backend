@@ -31,7 +31,7 @@ app.get("/", async (req, res) => {
 
   try {
     const response = await openai.chat.completions.create({
-      model: "grok-beta",
+      model: "grok-2-latest",
       messages: [
         {
           role: "system",
